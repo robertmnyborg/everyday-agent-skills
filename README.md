@@ -4,6 +4,21 @@ Four small Claude Code skills for daily work: writing steps someone else can fol
 
 ## Install
 
+Claude Code:
+
+```
+/plugin marketplace add robertmnyborg/claude-harness
+/plugin install everyday-agent-skills@claude-harness
+```
+
+Codex, Cursor, and other agents that read `SKILL.md`, via the [skills CLI](https://skills.sh):
+
+```bash
+npx skills add robertmnyborg/everyday-agent-skills
+```
+
+### Manual install
+
 ```bash
 git clone https://github.com/robertmnyborg/everyday-agent-skills
 cp -R everyday-agent-skills/skills/* ~/.claude/skills/
